@@ -18,7 +18,7 @@ guesses = []
 for question in questions:
     print("------------------")
     print(question)
-    for choice in choices[question_num]:
+    for choice in choices:
         print(choice)
 
     guess = input("Choose what you think is the answer").upper()
