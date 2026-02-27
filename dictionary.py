@@ -7,7 +7,7 @@ student = {
 # print(dir(student))
 # print(help(student))
 
-if student.get("course"):
+if student.get("python"):
     print("The subject exist")
 else:
     print("The subject don't exist")

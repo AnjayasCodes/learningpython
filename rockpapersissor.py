@@ -22,4 +22,5 @@ while is_running:
         print("You lost")
     else:
         print("You win")
+    if not input("Do you wanna Continue Playing (Y for yes and N for no)").upper() == "Y":
         is_running = False
